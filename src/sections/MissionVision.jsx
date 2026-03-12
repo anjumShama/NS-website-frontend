@@ -12,7 +12,7 @@ export default function MissionVision() {
     >
       {/* Mission */}
       <div className="bg-[#111827] border border-white/10 p-10 rounded-2xl
-                      shadow-lg shadow-black/40 hover:border-[#D4AF37]/40 transition">
+                      hover:shadow-[0_0_20px_rgba(212,175,55,0.5)] hover:scale-[1.05] hover:border-[#D4AF37]/40 transition">
         <Target className="text-[#D4AF37] mb-5" size={30} />
         <h3 className="text-xl font-semibold mb-4 text-white">Our Mission</h3>
         <p className="text-slate-400 leading-relaxed">
@@ -23,8 +23,8 @@ export default function MissionVision() {
       </div>
 
       {/* Vision */}
-      <div className="bg-[#111827] border border-white/10 p-10 rounded-2xl
-                      shadow-lg shadow-black/40 hover:border-[#D4AF37]/40 transition">
+      <div className="bg-[#111827] border border-white/10 p-10 rounded-2xl hover:scale-[1.05]
+      hover:shadow-[0_0_30px_rgba(212,175,55,0.5)] hover:border-[#D4AF37]/40 transition">
         <Eye className="text-[#D4AF37] mb-5" size={30} />
         <h3 className="text-xl font-semibold mb-4 text-white">Our Vision</h3>
         <p className="text-slate-400 leading-relaxed">

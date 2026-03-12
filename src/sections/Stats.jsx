@@ -22,7 +22,7 @@ export default function Stats() {
           <div
             key={i}
             className="bg-[#111827] border border-white/10 rounded-2xl py-10 px-6
-                       hover:border-[#D4AF37]/40 hover:scale-[1.05] transition shadow-lg shadow-black/40"
+                       hover:border-[#D4AF37]/40 hover:scale-[1.05] hover:shadow-[0_0_10px_rgba(212,175,55,0.5)] transition"
           >
             <h3 className="text-4xl font-bold text-[#D4AF37] mb-2">
               <CountUp end={item.value} suffix={item.suffix} duration={2} enableScrollSpy scrollSpyOnce/>

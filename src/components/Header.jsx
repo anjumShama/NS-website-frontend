@@ -16,7 +16,7 @@ export default function Header({ dark, setDark }) {
   ];
 
   return (
-    <header className="fixed top-0 w-full z-50 bg-slate-900 border-b border-slate-800">
+    <header className="fixed top-0 w-full z-50 bg-slate-900/80 backdrop-blur-md border-b border-slate-800">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
 
         {/* Logo */}

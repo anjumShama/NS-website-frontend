@@ -54,7 +54,7 @@ export default function WhyChooseUs() {
               <div
                 key={i}
                 className="bg-[#111827] border border-white/10 rounded-2xl p-6
-                           hover:border-[#D4AF37]/40 hover:shadow-lg hover:shadow-black/40
+                           hover:border-[#D4AF37]/40 hover:shadow-[0_0_20px_rgba(212,175,55,0.5)]
                            hover:-translate-y-1 hover:scale-[1.01]
                            transition-all duration-300"
               >

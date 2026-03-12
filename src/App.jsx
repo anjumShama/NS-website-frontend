@@ -22,8 +22,8 @@ function App() {
   return (
     <Router>
       <ScrollToTop />
-      <Header dark={dark} setDark={setDark} />
-      <main className="pt-22 min-h-screen">
+      <Header  dark={dark} setDark={setDark} />
+      <main>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />

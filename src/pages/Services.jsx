@@ -142,7 +142,7 @@ export default function Services() {
                   <img
                     src={service.image}
                     alt={service.title}
-                    className="w-full max-w-md rounded-3xl transition-transform duration-300 hover:scale-[1.03]"
+                    className="w-full max-w-md rounded-3xl transition-transform duration-300 hover:scale-[1.03] hover:shadow-[0_0_30px_rgba(212,175,55,0.5)] transition"
                   />
                 </div>
               </div>
