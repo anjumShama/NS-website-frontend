@@ -15,6 +15,7 @@ export default function Contact() {
     full_name: "",
     email: "",
     phone: "",
+    organisation: "",
     service_interested_in: "",
     message: "",
   });
@@ -147,6 +148,19 @@ export default function Contact() {
           </div>
 
           <div>
+            <label className="text-sm text-slate-300">Company/Institution *</label>
+            <input  
+              required
+              value={form.organisation}
+              onChange={(e) =>
+                setForm({ ...form, organisation: e.target.value })
+              }
+              className="w-full mt-1 bg-[#0B0F14] border border-white/10 rounded-lg px-3 py-2
+                         text-white focus:border-[#D4AF37] focus:ring-1 focus:ring-[#D4AF37] outline-none"
+            />
+          </div>
+
+          <div>
             <label className="text-sm text-slate-300">Service Interested In</label>
             <select
               value={form.service_interested_in}
@@ -187,7 +201,7 @@ export default function Contact() {
             type="submit"
             disabled={loading}
             className="w-full bg-[#D4AF37] text-black py-3 rounded-lg font-semibold
-                       hover:bg-[#F1C232] transition shadow-lg shadow-[#D4AF37]/30
+                       hover:bg-[#F1C232] hover:scale-[1.05] transition shadow-lg shadow-[#D4AF37]/30
                        disabled:opacity-60"
           >
             {loading ? "Sending..." : "Send Message"}

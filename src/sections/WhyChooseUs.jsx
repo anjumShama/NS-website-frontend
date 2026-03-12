@@ -1,4 +1,5 @@
 import { CheckCircle, TrendingUp, Shield, Sparkles } from "lucide-react";
+import { motion } from "framer-motion";
 
 export default function WhyChooseUs() {
   const points = [
@@ -26,6 +27,12 @@ export default function WhyChooseUs() {
 
   return (
     <section className="bg-[#0B0F14] py-28 border-t border-white/10">
+      <motion.section
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.6 }}
+    >
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Centered Heading */}
@@ -47,7 +54,8 @@ export default function WhyChooseUs() {
               <div
                 key={i}
                 className="bg-[#111827] border border-white/10 rounded-2xl p-6
-                           hover:border-[#D4AF37]/40 hover:shadow-lg hover:shadow-black/40
+                           hover:border-[#D4AF37]/40 hover:shadow-[0_0_20px_rgba(212,175,55,0.5)]
+                           hover:-translate-y-1 hover:scale-[1.01]
                            transition-all duration-300"
               >
                 <div className="w-11 h-11 rounded-xl bg-white/5 flex items-center justify-center mb-4">
@@ -67,6 +75,7 @@ export default function WhyChooseUs() {
         </div>
 
       </div>
+    </motion.section>
     </section>
   );
 }

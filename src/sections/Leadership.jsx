@@ -42,7 +42,7 @@ export default function Leadership() {
   const Card = ({ member }) => (
     <div
       className="bg-[#111827] border border-white/10 rounded-2xl p-5 text-center
-                 shadow-lg shadow-black/40 hover:border-[#D4AF37]/40 transition
+                 hover:shadow-[0_0_20px_rgba(212,175,55,0.5)] hover:scale-[1.05] hover:border-[#D4AF37]/40 transition
                  flex flex-col"
     >
       <h4 className="font-semibold text-white text-lg mb-1">

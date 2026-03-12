@@ -7,6 +7,7 @@ import About from "./pages/About";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import Careers from "./pages/Careers";
+import ScrollToTop from "./components/ScrollToTop";
 import { useEffect, useState } from "react";
 
 function App() {
@@ -20,8 +21,9 @@ function App() {
 
   return (
     <Router>
-      <Header dark={dark} setDark={setDark} />
-      <main className="pt-22 min-h-screen">
+      <ScrollToTop />
+      <Header  dark={dark} setDark={setDark} />
+      <main>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />
