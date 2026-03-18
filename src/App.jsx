@@ -21,9 +21,10 @@ function App() {
 
   return (
     <Router>
+      <NeuralBackground />
       <ScrollToTop />
       <Header  dark={dark} setDark={setDark} />
-      <main>
+      <main className="relative z-0">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />

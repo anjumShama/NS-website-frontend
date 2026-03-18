@@ -81,7 +81,7 @@ export default function Services() {
   ];
 
   return (
-    <div className="bg-[#0B0F14] text-white">
+    <div className=" text-white">
       <motion.div
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}

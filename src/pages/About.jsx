@@ -5,7 +5,7 @@ import Leadership from "../sections/Leadership";
 
 export default function About() {
   return (
-    <section className="bg-[#0B0F14] text-white">
+    <section className=" text-white">
 
       {/* Hero */}
       <div className="py-24 border-b border-white/10">

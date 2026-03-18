@@ -56,7 +56,7 @@ export default function NeuralBackground() {
 
     const animate = () => {
       ctx.clearRect(0, 0, width, height);
-      ctx.fillStyle = "rgba(10,10,10,0.4)";
+      ctx.fillStyle = "rgba(10,10,10,1)";
       ctx.fillRect(0, 0, width, height);
 
       connections.forEach((connection) => {
@@ -128,7 +128,7 @@ export default function NeuralBackground() {
       className="fixed inset-0 -z-10"
       style={{
         background: "transparent",
-        filter: "brightness(1) contrast(1.1)",
+        filter: "brightness(0.7) contrast(1)",
       }}
     />
   );

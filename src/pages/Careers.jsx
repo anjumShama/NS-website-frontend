@@ -106,7 +106,7 @@ export default function Careers() {
   });
 
   return (
-    <section className="bg-[#0B0F14] text-white">
+    <section className=" text-white">
       {/* Hero */}
       <div className="py-24 border-b border-white/10">
         <motion.div {...fadeUp(0)} className="max-w-4xl mx-auto px-6 text-center">

@@ -26,7 +26,7 @@ export default function WhyChooseUs() {
   ];
 
   return (
-    <section className="bg-[#0B0F14] py-28 border-t border-white/10">
+    <section className="py-28 border-t border-white/10">
       <motion.section
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}

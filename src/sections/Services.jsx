@@ -70,7 +70,7 @@ export default function Services() {
   };
 
   return (
-    <section className="bg-[#0B0F14] py-24 border-t border-white/10">
+    <section className="py-24 border-t border-white/10">
 
       <motion.section
         initial={{ opacity: 0, y: 30 }}
