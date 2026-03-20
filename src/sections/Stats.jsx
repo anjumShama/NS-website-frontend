@@ -21,7 +21,7 @@ export default function Stats() {
         {stats.map((item, i) => (
           <div
             key={i}
-            className="bg-[#111827] border border-white/10 rounded-2xl py-10 px-6
+            className="bg-[#111827]/70 border border-white/10 rounded-2xl py-10 px-6
                        hover:border-[#D4AF37]/40 hover:scale-[1.05] hover:shadow-[0_0_10px_rgba(212,175,55,0.5)] transition"
           >
             <h3 className="text-4xl font-bold text-[#D4AF37] mb-2">

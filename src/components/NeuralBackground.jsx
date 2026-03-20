@@ -82,8 +82,8 @@ export default function NeuralBackground() {
         node.y += node.vy;
         if (node.x <= 0 || node.x >= width) node.vx *= -1;
         if (node.y <= 0 || node.y >= height) node.vy *= -1;
-        node.pulsePhase += 0.02;
-        const pulseScale = 1 + Math.sin(node.pulsePhase) * 0.3;
+        node.pulsePhase += 0.09;
+        const pulseScale = 1 + Math.sin(node.pulsePhase) * 0.5;
 
         const gradient = ctx.createRadialGradient(
           node.x,

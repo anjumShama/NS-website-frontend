@@ -107,7 +107,7 @@ export default function Services() {
                   initial= "rest"
                   whileHover="hover"
                   animated= "rest"
-                  className="group relative bg-[#111827] border border-white/10 p-8 rounded-2xl
+                  className="group relative bg-[#111827]/70 border border-white/10 p-8 rounded-2xl hover:bg-[#111827]
                   hover:border-[#D4AF37]/40 transition hover:scale-1.05 hover:shadow-[0_0_20px_rgba(212,175,55,0.5)]"
                 >
 

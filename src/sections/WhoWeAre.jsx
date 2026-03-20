@@ -35,7 +35,7 @@ export default function WhoWeAre() {
         <motion.img
           src={logo2}
           alt="Neuricorn Syndicate Logo"
-          className="relative w-56 md:w-64 object-contain drop-shadow-[0_0_35px_rgba(212,175,55,0.35)]"
+          className="relative w-56 md:w-64 rounded-b-[80%] rounded-tr-[80%] bg-black/5 object-contain drop-shadow-[0_0_35px_rgba(212,175,55,0.35)]"
           whileHover={{ scale: 1.05 }}
           transition={{ type: "spring", stiffness: 200 }}
         />

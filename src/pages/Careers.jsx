@@ -127,7 +127,7 @@ export default function Careers() {
         <motion.form
           {...fadeUp(0.2)}
           onSubmit={handleSubmit}
-          className="bg-[#111827] border border-white/10 rounded-2xl p-10
+          className="bg-[#111827]/70 border border-white/10 rounded-2xl p-10
                      grid grid-cols-1 sm:grid-cols-2 gap-6 shadow-xl shadow-black/40"
         >
           <Input label="Full Name" name="full_name" value={form.full_name} onChange={handleChange} />

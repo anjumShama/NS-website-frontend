@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="relative text-white overflow-hidden">
+    <section className="relative pt-10 text-white overflow-hidden">
       <motion.section
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
@@ -50,7 +50,7 @@ export default function Hero() {
           <motion.img
                     src={logo2}
                     alt="Neuricorn Syndicate Logo"
-                    className="relative object-contain drop-shadow-[0_0_35px_rgba(212,175,55,0.35)]"
+                    className="relative  rounded-b-[1000px] rounded-tl-[90%] backdrop-blur-[2px] rounded-tr-[1000px] object-contain drop-shadow-[0_0_35px_rgba(212,175,55,0.35)]"
                     whileHover={{ scale: 1.05 }}
                     transition={{ type: "spring", stiffness: 200 }}
                   />

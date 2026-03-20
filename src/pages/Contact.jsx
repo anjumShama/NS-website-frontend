@@ -102,7 +102,7 @@ export default function Contact() {
         <motion.form
           {...fadeUp(0.1)}
           onSubmit={handleSubmit}
-          className="bg-[#111827] border border-white/10 p-10 rounded-2xl
+          className="bg-[#111827]/70 border border-white/10 p-10 rounded-2xl
                      shadow-xl shadow-black/40 space-y-5"
         >
           <h2 className="text-xl font-semibold mb-4">Send Us a Message</h2>

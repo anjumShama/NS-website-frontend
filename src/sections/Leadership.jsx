@@ -41,8 +41,8 @@ export default function Leadership() {
 
   const Card = ({ member }) => (
     <div
-      className="bg-[#111827] border border-white/10 rounded-2xl p-5 text-center
-                 hover:shadow-[0_0_20px_rgba(212,175,55,0.5)] hover:scale-[1.05] hover:border-[#D4AF37]/40 transition
+      className="bg-[#111827]/70 border border-white/10 rounded-2xl p-5 text-center
+                 hover:shadow-[0_0_20px_rgba(212,175,55,0.5)] hover:scale-[1.05] hover:border-[#D4AF37]/40 hover:bg-[#111827] transition
                  flex flex-col"
     >
       <h4 className="font-semibold text-white text-lg mb-1">
@@ -53,7 +53,7 @@ export default function Leadership() {
         {member.role}
       </p>
 
-      <p className="text-slate-400 text-sm leading-relaxed flex-grow">
+      <p className="text-slate-300 text-sm leading-relaxed flex-grow">
         {member.desc}
       </p>
     </div>
